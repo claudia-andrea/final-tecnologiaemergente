@@ -1272,6 +1272,7 @@ pre code {
     flex: 0 0 83.33333%;
     max-width: 83.33333%;
   }
+  .carousel-caption
   .col-lg-11 {
     flex: 0 0 91.66667%;
     max-width: 91.66667%;
@@ -3477,7 +3478,7 @@ input[type="button"].btn-block {
 .input-group-sm > .custom-select {
   padding-right: 1.75rem;
 }
-
+.carousel-caption
 .custom-control {
   position: relative;
   z-index: 1;
@@ -5030,6 +5031,10 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #e9ecef;
 }
 
+.btncarru{
+  color: red;
+}
+
 .list-group-item {
   position: relative;
   display: block;
@@ -6016,7 +6021,7 @@ a.close.disabled {
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #fff;
+  color: red;
   text-align: center;
 }
 
